@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Yogesh Suhagiya
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future. If you wish to customize this module for your needs.
+ * Please contact Yogesh Suhagiya (yksuhagiya@gmail.com)
+ *
+ * @category    Practical
+ * @package     Practical_EstimateProfit
+ * @author      Yogesh Suhagiya (yksuhagiya@gmail.com)
+ * @copyright   Copyright (c) 2022
+ * @license     https://github.com/yogeshsuhagiya/estimate-profit/blob/main/LICENSE
+ */
+ -->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd"> 
+    <columns name="product_columns"> 
+        <column name="estimate_profit" sortOrder="76" class="Practical\EstimateProfit\Ui\Component\Listing\Column\EstimateProfit">
+            <settings> 
+                <addField>true</addField>
+                <sortable>true</sortable>
+                <label translate="true">Estimated Profit</label>
+            </settings> 
+        </column>
+    </columns> 
+</listing>

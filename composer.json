@@ -1,0 +1,34 @@
+{
+  "name": "yogeshsuhagiya/estimate-profit",
+  "description": "Estimated profit should be calculated as (Sales Price - Cost Price) x Qty in stock",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "homepage": "https://github.com/yogeshsuhagiya/estimate-profit",
+  "require": {
+    "php": "~7.4.0",
+    "magento/framework": ">=100.0.0",
+    "magento/module-backend": ">=100.0.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yogesh Suhagiya",
+      "email": "yksuhagiya@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Practical\\EstimateProfit\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.0"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

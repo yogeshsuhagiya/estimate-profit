@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Yogesh Suhagiya
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future. If you wish to customize this module for your needs.
+ * Please contact Yogesh Suhagiya (yksuhagiya@gmail.com)
+ *
+ * @category    Practical
+ * @package     Practical_EstimateProfit
+ * @author      Yogesh Suhagiya (yksuhagiya@gmail.com)
+ * @copyright   Copyright (c) 2022
+ * @license     https://github.com/yogeshsuhagiya/estimate-profit/blob/main/LICENSE
+ */
+ -->
+ <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="product_estimate_profit_command" xsi:type="object">Practical\EstimateProfit\Console\Command\Profit</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
