@@ -22,7 +22,7 @@
 
  2. Command Line Installation
       - Backup your web directory and database.
-      - Download the latest installation package estimate-profit-vvvv.zip from [here](https://github.com/yogeshsuhagiya/estimate-profit/releases)
+      - Download the latest installation package `Source code (zip)` from [here](https://github.com/yogeshsuhagiya/estimate-profit/releases)
       - Navigate to your Magento root folder<br />
             `cd path_to_the_magento_root_directory`<br />
       - Upload contents of the installation package to your Magento root directory
